@@ -1,0 +1,78 @@
+.header {
+    background-color: #2F4156;
+
+    color: #000000;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1rem 2rem;
+
+    border-bottom: 2px solid #567C8D;
+
+    box-shadow: 0 3px 10px rgba(47, 65, 86, 0.25);
+}
+
+.header h1 {
+    margin-right: 1rem;
+
+    font-weight: bold;
+
+    color: #000000;
+}
+
+.header h2 {
+    margin-bottom: 0.5rem;
+
+    font-family: 'Great Vibes', cursive;
+
+    font-weight: 400;
+
+    color: #000000;
+}
+
+.left {
+    display: flex;
+
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.atom {
+    display: flex;
+
+    animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.header span {
+    font-weight: bold;
+
+    font-size: 1.2rem;
+
+    color: #000000;
+}
+
+.verb {
+    font-weight: bold;
+
+    text-decoration: none;
+
+    color: #000000;
+}
+
+.verb:hover {
+    text-decoration: underline;
+}

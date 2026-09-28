@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-items: stretch;
+    align-content: center;
+    justify-content: center;
+
+    gap: 1.5rem;
+
+    width: 100%;
+    max-width: 1400px;
+
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.footer {
+    background-color: #2F4156;
+
+    color: #000000;
+
+    text-align: center;
+
+    padding: 1rem 2rem;
+
+    border-top: 3px solid #567C8D;
+
+    box-shadow: 0 -3px 10px rgba(47, 65, 86, 0.12);
+}
