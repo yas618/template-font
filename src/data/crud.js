@@ -51,9 +51,16 @@ export const crud = [
     id: 1,
     method: 'Create',
     verb: 'Post',
-    description: 'Cria uma série via API Route - BackEnd Intermediário.',
+    description: 'Cria série via modal e API Route.',
     color: 'orange',
     Icon: PlusCircle,
   },
-]
-
+  {
+    id: 2,
+    method: 'Read',
+    verb: 'Get',
+    description: 'Lista séries no SSR e busca pelo id em rota dinâmica viaRoute.',
+    color: 'blue',
+    Icon: PlusCircle,
+  },
+];
